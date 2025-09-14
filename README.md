@@ -3,6 +3,11 @@
 ## 🌟 프로젝트 개요
 ‘Ræm’은 성격심리학의 Big Five 모델과 HTP 투사 검사를 결합해 인간의 무의식을 162가지 성격 유형으로 구조화하고, 이를 시각화하는 인터랙티브 미디어 아트이다. 관객은 간단한 심리 검사를 통해 자신의 성격 유형을 도출한 뒤, 그에 대응하는 플로피 디스크를 장치에 삽입하게 된다. Ræmctrl v_5.1은 심리학 기반의 고성능 이미지 분석 모델과 레트로 UI를 탑재한 복합 장치로, 디스크에 담긴 유형별 심리 데이터를 기반으로 관객의 무의식적 성향을 반영한 시각화된 데이터를 제공한다. 본 전시는 ‘괴짜 무의식 연구소’라는 몰입형 공간에서 진행되며, 관객은 연구소의 과거 임상 심리 데이터를 통해 자신의 내면을 탐색하고, 낯설고도 매혹적인 심리 경험에 빠져든다. Python으로 프로그램 전체를 구현했으며, 사운드 및 영상, 폰트를 포함한 게임 로직과 네트워크 프로그래밍 및 멀티스레딩을 적용하여 최적화 및 다중 스크린 동시 송출 등을 구현했다. 관객의 심리 검사 결과를 실시간으로 프린터로 출력하는 기능 또한 구현되어 있다.
 
+## 🔗 관련 링크 (Related Links)
+- **컴퓨터 비전 모델 개발 기록**: [raemctrl_sketch_detection](https://github.com/jkwltx177/raemctrl_sketch_detection)
+- **전시 작품 소개 (Art-tech Showcase)**: [cau-artech-showcase.imweb.me/63](https://cau-artech-showcase.imweb.me/63)
+- **전시 관련 인스타그램 포스트**: [Instagram](https://www.instagram.com/p/DLMFGFzzWbP/)
+
 ## 💻 기술 스택
 - **언어**: Python
 - **핵심 라이브러리**: Pygame, OpenCV, Sockets, Multithreading, pywin32, obs-websocket-py
@@ -29,8 +34,3 @@
 
 ## 📝 향후 계획 (To-Do)
 - 모듈화 및 리팩토링
-
-## 🔗 관련 링크 (Related Links)
-- **컴퓨터 비전 모델 개발 기록**: [raemctrl_sketch_detection](https://github.com/jkwltx177/raemctrl_sketch_detection)
-- **전시 작품 소개 (Art-tech Showcase)**: [cau-artech-showcase.imweb.me/63](https://cau-artech-showcase.imweb.me/63)
-- **전시 관련 인스타그램 포스트**: [Instagram](https://www.instagram.com/p/DLMFGFzzWbP/)
