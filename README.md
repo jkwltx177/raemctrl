@@ -29,3 +29,8 @@
 
 ## 📝 향후 계획 (To-Do)
 - 모듈화 및 리팩토링
+
+## 🔗 관련 링크 (Related Links)
+- **컴퓨터 비전 모델 개발 기록**: [raemctrl_sketch_detection](https://github.com/jkwltx177/raemctrl_sketch_detection)
+- **전시 작품 소개 (Art-tech Showcase)**: [cau-artech-showcase.imweb.me/63](https://cau-artech-showcase.imweb.me/63)
+- **전시 관련 인스타그램 포스트**: [Instagram](https://www.instagram.com/p/DLMFGFzzWbP/)
