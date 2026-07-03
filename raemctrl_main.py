@@ -76,21 +76,7 @@ VIDEO_DIR_NAME = 'videos' # 비디오 디렉토리 경로 추가
 SCREENSHOT_DIR_NAME = 'screenshots'
 
 DEFAULT_ENG_FONT_NAME = 'VT323-Regular.ttf'
-#DEFAULT_ENG_FONT_NAME = 'IBMPlexMono-Regular.ttf'
 FALLBACK_ENG_FONTS = ['Fixedsys500c.ttf', 'cour.ttf', 'Courier New', 'monospace']
-#DEFAULT_KO_FONT_NAME = 'DOSMyungjo.ttf'
-#DEFAULT_KO_FONT_NAME = 'DungGeunMo.ttf'
-#DEFAULT_KO_FONT_NAME = 'HBIOS-SYS-prop.ttf'
-#DEFAULT_KO_FONT_NAME = 'neodgm.ttf'
-#DEFAULT_KO_FONT_NAME = 'NeoDunggeunmoPro-Regular.ttf'
-#DEFAULT_KO_FONT_NAME = 'IyagiGGC.ttf'
-#DEFAULT_KO_FONT_NAME = 'Galmuri9.ttf'
-#DEFAULT_KO_FONT_NAME = 'GalmuriMono9.ttf'
-#DEFAULT_KO_FONT_NAME = 'GalmuriMono11.ttf'
-#DEFAULT_KO_FONT_NAME = 'GalmuriMono7.ttf'
-#DEFAULT_KO_FONT_NAME = 'ChosunSm.TTF'
-#DEFAULT_KO_FONT_NAME = 'ChosunKm.TTF' #good
-#DEFAULT_KO_FONT_NAME = 'RIDIBatang.otf'
 DEFAULT_KO_FONT_NAME = 'KBIZ한마음명조 R.ttf' #good
 FALLBACK_KO_FONTS = ['Malgun Gothic', 'Gulim', 'Dotum', 'sans-serif']
 
