@@ -8,7 +8,7 @@
 - 관객의 심리 검사 결과를 실시간으로 프린터로 출력하는 기능 구현
 
 ## 🔗 관련 링크 (Related Links)
-- **컴퓨터 비전 모델 개발 기록**: [raemctrl_sketch_detection](https://github.com/jkwltx177/raemctrl_sketch_detection)
+- **컴퓨터 비전 모델 개발 기록**: [raemctrl-sketch-vision-model-archive](https://github.com/jkwltx177/raemctrl-sketch-vision-model-archive)
 - **전시 작품 소개 (Art-tech Showcase)**: [cau-artech-showcase.imweb.me/63](https://cau-artech-showcase.imweb.me/63)
 - **전시 관련 인스타그램 포스트**: [Instagram](https://www.instagram.com/p/DLMFGFzzWbP/)
 
