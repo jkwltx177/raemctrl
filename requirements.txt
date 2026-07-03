@@ -1,0 +1,7 @@
+pygame
+opencv-python
+numpy
+obsws-python
+pywin32
+Pillow
+screeninfo

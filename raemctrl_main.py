@@ -122,9 +122,9 @@ class DataLogger:
     def __init__(self, log_file="exhibition_data.log"):
         self.log_file = log_file
         
-        # --- 네트워크 설정 ---
-        self.server_host = '10.210.68.162' # ◀◀◀ [필수] 컴퓨터 2의 고정 IP 주소
-        self.server_port = 51985          # ◀◀◀ 충돌 방지를 위해 높은 번호의 포트로 변경
+        # --- 네트워크 설정 (RAEM_LOG_SERVER_HOST: 로그 서버 PC의 고정 IP) ---
+        self.server_host = os.environ.get("RAEM_LOG_SERVER_HOST", "127.0.0.1")
+        self.server_port = int(os.environ.get("RAEM_LOG_SERVER_PORT", "51985"))
         
         # --- 안정성 강화를 위한 내부 큐 ---
         self.network_queue = queue.Queue(maxsize=100) # 최대 100개 로그 임시 저장
@@ -777,9 +777,9 @@ class PsychologyTest:
         self.frame_skip_counter = 0
         # OBS 설정 추가
         self.obs_enabled = True  # OBS 연동 기능 활성화 여부
-        self.obs_host = "localhost"
-        self.obs_port = 4455
-        self.obs_password = "qazwsx123"
+        self.obs_host = os.environ.get("RAEM_OBS_HOST", "localhost")
+        self.obs_port = int(os.environ.get("RAEM_OBS_PORT", "4455"))
+        self.obs_password = os.environ.get("RAEM_OBS_PASSWORD", "")
         self.obs_client = None
         # 플로피 내용과 OBS 장면 매핑
         self.floppy_to_scene_mapping = {
@@ -3828,27 +3828,3 @@ if __name__ == "__main__":
         # sys.exit() # sys.exit() might be problematic if run in some environments like IDEs.
                    # Pygame quit should be enough to terminate.
                    # If script needs to force exit status, can be re-enabled.
-
-#사운드추가, 스크린샷 잡버그
-
-# 에러 느낌 고민필요
-# Warning: Analysis video not found at C:\capstone\raemctrl\videos\analysis.mp4
-
-
-
-
-
-
-# 룰베이스 스케치 인식 (관상팀..교수님조언)
-# 사소한것들... 나중에 영어버전
-
-
-# !!!!!!!!!!!!
-# 최종에는 플로피인서트가이드 상태에서 스페이스바 눌러도 안넘어가게
-
-# 최종 프로그램 두 개(각 데탑 두 대 모두) 전체 사운드 볼륨 체크
-# 최종 전체 플로우 및 화면 디테일 상세히 체크
-# 처음 두 소개 페이지 문구 crt모니터에서 확인하고 수정
-# 유선 스피커 다이소에서 사서 로그 표시하는 컴퓨터에 연결 
-# 에러 시 흰깜빡임 눈 아픔 어두운환경에서 <- 다시 체크해보기
-# !!!!!!!!!!!!
